@@ -1,13 +1,17 @@
 import React, { useEffect } from 'react';
 import errorPage from '../../assets/404.jpg';
+import Header from '../../components/Header/Header';
 
 const PageNotFound = () => {
     useEffect( () => {
         window.scrollTo( 0, 0 )
     }, [] )
     return (
-        <div className="justify-center flex">
-            <img className="" src={ errorPage } alt="errorPageImage" />
+        <div>
+            <Header />
+            <div className="justify-center flex">
+                <img className="" src={ errorPage } alt="errorPageImage" />
+            </div>
         </div>
     );
 };
