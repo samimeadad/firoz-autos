@@ -1,13 +1,14 @@
 import React from 'react';
 import Header from '../../components/Header/Header';
-import Footer from '../../components/Footer/Footer';
+import FooterComponent from '../../components/Footer/FooterComponent';
+
 
 const Contact = () => {
     return (
         <div>
             <Header />
             <h1>Contact Us</h1>
-            <Footer />
+            <FooterComponent />
         </div>
     );
 };
