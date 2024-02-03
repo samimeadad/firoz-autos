@@ -53,8 +53,6 @@ export default function Header () {
                                             <a
                                                 key={ item.name }
                                                 href={ item.href }
-                                                rel="noreferrer"
-                                                target='_blank'
                                                 className={
                                                     classNames(
                                                         item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
