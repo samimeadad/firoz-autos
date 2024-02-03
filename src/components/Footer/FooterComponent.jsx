@@ -13,22 +13,22 @@ import logo from "../../assets/logo.jpg"
 
 const FooterComponent = () => {
     return (
-        <Footer container>
+        <Footer container className='my-2 bg-gray-800'>
             <div className="w-full">
                 <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
                     <div>
                         <FooterBrand
                             href="/"
                             src={ logo }
-                            alt="Company Logo"
+                            alt="Logo"
                         />
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
                         <div>
                             <FooterTitle title="about" />
                             <FooterLinkGroup col>
-                                <FooterLink href="#">Firoz Autos</FooterLink>
-                                <FooterLink href="#">Firoz Motors</FooterLink>
+                                <FooterLink href="/" target='_blank'>Firoz Autos</FooterLink>
+                                <FooterLink href="/service" target='_blank'>Firoz Motors</FooterLink>
                             </FooterLinkGroup>
                         </div>
                         <div>
@@ -41,21 +41,19 @@ const FooterComponent = () => {
                         <div>
                             <FooterTitle title="Legal" />
                             <FooterLinkGroup col>
-                                <FooterLink href="#">Privacy Policy</FooterLink>
-                                <FooterLink href="#">Terms &amp; Conditions</FooterLink>
+                                <FooterLink href="/privacy-policy" target='_blank'>Privacy Policy</FooterLink>
+                                <FooterLink href="/terms" target='_blank'>Terms &amp; Conditions</FooterLink>
                             </FooterLinkGroup>
                         </div>
                     </div>
                 </div>
                 <FooterDivider />
                 <div className="w-full sm:flex sm:items-center sm:justify-between">
-                    <FooterCopyright href="#" by="Flowbite™" year={ 2022 } />
+                    <FooterCopyright href="/" by="Firoz Autos" year={ new Date().getFullYear() } />
                     <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-                        <FooterIcon href="#" icon={ BsFacebook } />
+                        <FooterIcon href="$" icon={ BsFacebook } />
                         <FooterIcon href="#" icon={ BsInstagram } />
                         <FooterIcon href="#" icon={ BsTwitter } />
-                        <FooterIcon href="#" icon={ BsGithub } />
-                        <FooterIcon href="#" icon={ BsDribbble } />
                     </div>
                 </div>
             </div>

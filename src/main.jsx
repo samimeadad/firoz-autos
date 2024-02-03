@@ -13,6 +13,8 @@ import RoadSafety from './pages/RoadSafety/RoadSafety.jsx';
 import Contact from './pages/Contact/Contact.jsx';
 import Events from './pages/Events/Events.jsx';
 import Products from './pages/Products/Products.jsx';
+import PrivacyPolicy from './pages/PrivacyPolicy/PrivacyPolicy.jsx';
+import Terms from './pages/Terms/Terms.jsx';
 
 const router = createBrowserRouter( [
   {
@@ -53,6 +55,16 @@ const router = createBrowserRouter( [
   {
     path: "/events",
     element: <Events />,
+    errorElement: <PageNotFound />
+  },
+  {
+    path: "/privacy-policy",
+    element: <PrivacyPolicy />,
+    errorElement: <PageNotFound />
+  },
+  {
+    path: "/terms",
+    element: <Terms />,
     errorElement: <PageNotFound />
   }
 ] );
