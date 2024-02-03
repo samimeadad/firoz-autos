@@ -39,11 +39,13 @@ export default function Header () {
                             </div>
                             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                                 <div className="mt-2 ms-8 flex flex-shrink-0 items-center sm:place-items-center">
-                                    <img
-                                        className="h-8 w-auto"
-                                        src={ logo }
-                                        alt="Firoz Autos"
-                                    />
+                                    <a href="/">
+                                        <img
+                                            className="h-8 w-auto"
+                                            src={ logo }
+                                            alt="Firoz Autos"
+                                        />
+                                    </a>
                                 </div>
                                 <div className="hidden mt-2 sm:ml-6 sm:block sm:text-sm md:ml-6 md:block md:text-sm">
                                     <div className="flex space-x-4">
@@ -51,10 +53,13 @@ export default function Header () {
                                             <a
                                                 key={ item.name }
                                                 href={ item.href }
-                                                className={ classNames(
-                                                    item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                                                    'rounded-md px-3 py-2 text-xl font-medium'
-                                                ) }
+                                                rel="noreferrer"
+                                                target='_blank'
+                                                className={
+                                                    classNames(
+                                                        item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                                                        'rounded-md px-3 py-2 text-xl font-medium'
+                                                    ) }
                                                 aria-current={ item.current ? 'page' : undefined }
                                             >
                                                 { item.name }
@@ -85,7 +90,8 @@ export default function Header () {
                         </div>
                     </Disclosure.Panel>
                 </>
-            ) }
-        </Disclosure>
+            )
+            }
+        </Disclosure >
     )
 }
