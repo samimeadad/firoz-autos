@@ -1,6 +1,6 @@
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logo.jpg';
 
 const navigation = [
     { name: 'Home', href: '/home', current: true },
@@ -34,17 +34,14 @@ export default function Header () {
                                     ) }
                                 </Disclosure.Button>
                             </div>
-                            <div>
-                                <div className="me-20 flex flex-shrink-0 items-center sm:place-items-center">
-                                    <h1 className="text-white text-4xl mx-12 font-bold">Firoz Autos</h1>
+                            <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                                <div className="mt-2 ms-8 flex flex-shrink-0 items-center sm:place-items-center">
                                     <img
-                                        className="h-auto w-16"
+                                        className="h-8 w-auto"
                                         src={ logo }
-                                        alt="Your Company"
+                                        alt="Firoz Autos"
                                     />
                                 </div>
-                            </div>
-                            <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                                 <div className="hidden mt-2 sm:ml-6 sm:block sm:text-sm md:ml-6 md:block md:text-sm">
                                     <div className="flex space-x-4">
                                         { navigation.map( ( item ) => (
