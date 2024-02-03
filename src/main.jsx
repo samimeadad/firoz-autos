@@ -11,6 +11,7 @@ import About from './pages/About/About.jsx';
 import Services from './pages/Services/Services.jsx';
 import RoadSafety from './pages/RoadSafety/RoadSafety.jsx';
 import Contact from './pages/Contact/Contact.jsx';
+import Events from './pages/Events/Events.jsx';
 
 const router = createBrowserRouter( [
   {
@@ -41,6 +42,11 @@ const router = createBrowserRouter( [
   {
     path: "/contact",
     element: <Contact />,
+    errorElement: <PageNotFound />
+  },
+  {
+    path: "/events",
+    element: <Events />,
     errorElement: <PageNotFound />
   }
 ] );
