@@ -1,4 +1,3 @@
-import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from '../../assets/logo.jpg';
@@ -53,6 +52,8 @@ export default function Header () {
                                             <a
                                                 key={ item.name }
                                                 href={ item.href }
+                                                // rel="noreferrer"
+                                                // target='_blank'
                                                 className={
                                                     classNames(
                                                         item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
