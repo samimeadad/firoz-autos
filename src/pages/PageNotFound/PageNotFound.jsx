@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import errorPage from '../../assets/404.jpg';
 import Header from '../../components/Header/Header';
+import Footer from '../../components/Footer/Footer';
 
 const PageNotFound = () => {
     useEffect( () => {
@@ -12,6 +13,7 @@ const PageNotFound = () => {
             <div className="justify-center flex">
                 <img className="" src={ errorPage } alt="errorPageImage" />
             </div>
+            <Footer />
         </div>
     );
 };

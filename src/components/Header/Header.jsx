@@ -1,14 +1,17 @@
+import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from '../../assets/logo.jpg';
 
 const navigation = [
-    { name: 'Home', href: '/home', current: true },
-    { name: 'About Firoz Autos', href: '/about', current: false },
+    { name: 'Home', href: '/home', current: false },
+    { name: 'Products', href: '/products', current: false },
     { name: 'Service & Spare Parts', href: '/service', current: false },
+    { name: 'About Us', href: '/about', current: false },
     { name: 'Road Safety', href: '/roadSafety', current: false },
     { name: 'Contact Us', href: '/contact', current: false },
-    { name: 'Events', href: '/events', current: false }
+    { name: 'Events', href: '/events', current: false },
+    { name: 'Honda Global', href: 'https://global.honda/en/', current: false }
 ]
 
 function classNames ( ...classes ) {
@@ -20,7 +23,7 @@ export default function Header () {
         <Disclosure as="nav" className="bg-gray-800">
             { ( { open } ) => (
                 <>
-                    <div className="mx-auto max-w-8xl px-2 sm:px-6 md:px-6 lg:px-8">
+                    <div className="container mx-auto max-w-8xl">
                         <div className="relative flex h-36 items-center justify-between">
                             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden md:hidden">
                                 {/* Mobile menu button*/ }
@@ -50,7 +53,7 @@ export default function Header () {
                                                 href={ item.href }
                                                 className={ classNames(
                                                     item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                                                    'rounded-md px-3 py-2 text-2xl font-medium'
+                                                    'rounded-md px-3 py-2 text-xl font-medium'
                                                 ) }
                                                 aria-current={ item.current ? 'page' : undefined }
                                             >

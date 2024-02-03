@@ -12,6 +12,7 @@ import Services from './pages/Services/Services.jsx';
 import RoadSafety from './pages/RoadSafety/RoadSafety.jsx';
 import Contact from './pages/Contact/Contact.jsx';
 import Events from './pages/Events/Events.jsx';
+import Products from './pages/Products/Products.jsx';
 
 const router = createBrowserRouter( [
   {
@@ -25,13 +26,18 @@ const router = createBrowserRouter( [
     errorElement: <PageNotFound />
   },
   {
-    path: "/about",
-    element: <About />,
+    path: "/products",
+    element: <Products />,
     errorElement: <PageNotFound />
   },
   {
     path: "/service",
     element: <Services />,
+    errorElement: <PageNotFound />
+  },
+  {
+    path: "/about",
+    element: <About />,
     errorElement: <PageNotFound />
   },
   {
