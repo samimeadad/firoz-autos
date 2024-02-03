@@ -36,7 +36,7 @@ export default function Header () {
                             </div>
                             <div>
                                 <div className="me-20 flex flex-shrink-0 items-center sm:place-items-center">
-                                    <h1 className="text-white text-2xl mx-12 font-bold">Firoz Autos</h1>
+                                    <h1 className="text-white text-4xl mx-12 font-bold">Firoz Autos</h1>
                                     <img
                                         className="h-auto w-16"
                                         src={ logo }
