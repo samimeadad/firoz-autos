@@ -27,7 +27,7 @@ const FooterComponent = () => {
                         <div>
                             <FooterTitle title="about" />
                             <FooterLinkGroup col>
-                                <FooterLink href="/" target='_blank'>Firoz Autos</FooterLink>
+                                <FooterLink href="/about" target='_blank'>Firoz Autos</FooterLink>
                                 <FooterLink href="/service" target='_blank'>Firoz Motors</FooterLink>
                             </FooterLinkGroup>
                         </div>
