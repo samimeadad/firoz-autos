@@ -10,11 +10,11 @@ const HomeCarousel = () => {
     return (
         <div className="my-20 container mx-auto h-56 sm:h-56 xl:h-80 2xl:h-96">
             <Carousel pauseOnHover slideInterval={ 2000 }>
-                <img src={ carousel1 } alt="..." />
-                <img src={ carousel2 } alt="..." />
-                <img src={ carousel3 } alt="..." />
-                <img src={ carousel4 } alt="..." />
-                <img src={ carousel5 } alt="..." />
+                <img src={ carousel1 } alt="..." className='w-auto h-auto' />
+                <img src={ carousel2 } alt="..." className='w-auto h-auto' />
+                <img src={ carousel3 } alt="..." className='w-auto h-auto' />
+                <img src={ carousel4 } alt="..." className='w-auto h-auto' />
+                <img src={ carousel5 } alt="..." className='w-auto h-auto' />
             </Carousel>
         </div>
     );

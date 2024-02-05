@@ -22,7 +22,7 @@ export default function Header () {
         <Disclosure as="nav" className="bg-gray-800">
             { ( { open } ) => (
                 <>
-                    <div className="container mx-auto max-w-8xl">
+                    <header className="container mx-auto max-w-8xl">
                         <div className="relative flex h-36 items-center justify-between">
                             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden md:hidden">
                                 {/* Mobile menu button*/ }
@@ -68,7 +68,7 @@ export default function Header () {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </header>
 
                     <Disclosure.Panel className="sm:hidden md:hidden">
                         <div className="space-y-1 px-2 pb-3 pt-2">
