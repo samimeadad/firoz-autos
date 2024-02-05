@@ -1,4 +1,3 @@
-import React from 'react';
 import Header from '../../components/Header/Header';
 import FooterComponent from '../../components/Footer/FooterComponent';
 
@@ -194,7 +193,7 @@ const PrivacyPolicy = () => {
                         <h2 className='text-2xl font-bold'>Contact Information</h2>
                     </p>
                     <p className='text-xl text-justify my-10'>
-                        Name: Firoz Autos Ltd. Address: 2-1-1, Aoyama, Minato-ku, Tokyo, 107-8556, Japan
+                        Name: Firoz Autos Ltd. Address: Chouhatta, Sylhet, 3100, Bangladesh
                     </p>
                 </div>
                 <div>
