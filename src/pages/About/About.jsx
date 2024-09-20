@@ -5,7 +5,7 @@ import aboutImage from "../../assets/about-us/honda-1.jpg";
 
 const About = () => {
     return (
-        <div>
+        <div className='container mx-auto'>
             <Header />
             <section className='my-20 container mx-auto text-justify'>
                 <section className='my-20 container mx-auto'>

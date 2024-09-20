@@ -5,7 +5,7 @@ import HomeCarousel from './HomeCarousel';
 
 const Home = () => {
     return (
-        <div>
+        <div className="container mx-auto">
             <Header />
             <div className='mx-auto'>
                 <HomeCarousel />

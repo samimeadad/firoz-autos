@@ -5,7 +5,7 @@ import FooterComponent from '../../components/Footer/FooterComponent';
 
 const Contact = () => {
     return (
-        <div>
+        <div className='container mx-auto'>
             <Header />
             <h1>Contact Us</h1>
             <FooterComponent />

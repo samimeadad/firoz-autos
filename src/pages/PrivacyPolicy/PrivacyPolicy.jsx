@@ -3,7 +3,7 @@ import FooterComponent from '../../components/Footer/FooterComponent';
 
 const PrivacyPolicy = () => {
     return (
-        <section>
+        <section className='container mx-auto'>
             <Header />
             <section className='my-20 container mx-auto text-justify'>
                 <h1 className='text-5xl font-bold text-center my-10'>Privacy Policy</h1>

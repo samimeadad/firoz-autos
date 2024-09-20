@@ -4,7 +4,7 @@ import FooterComponent from '../../components/Footer/FooterComponent';
 
 const RoadSafety = () => {
     return (
-        <div>
+        <div className='container mx-auto'>
             <Header />
             <h1>Road Safety</h1>
             <FooterComponent />

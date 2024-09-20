@@ -10,7 +10,7 @@ const navigation = [
     { name: 'Road Safety', href: '/roadSafety', current: false },
     { name: 'Contact Us', href: '/contact', current: false },
     { name: 'Events', href: '/events', current: false },
-    { name: 'Honda Global', href: 'https://global.honda/en/', current: false }
+    { name: 'Honda Global', href: 'https://global.honda/en/', current: false, target: '_blank' }
 ]
 
 function classNames ( ...classes ) {

@@ -4,7 +4,7 @@ import FooterComponent from '../../components/Footer/FooterComponent';
 
 const Events = () => {
     return (
-        <div>
+        <div className='container mx-auto'>
             <Header />
             <h1>Events Page</h1>
             <FooterComponent />
