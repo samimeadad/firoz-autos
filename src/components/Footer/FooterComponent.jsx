@@ -14,7 +14,7 @@ import hondaLogo from "../../assets/honda-logo-bg.png";
 
 const FooterComponent = () => {
     return (
-        <Footer container className='my-2 bg-green-600 text-white'>
+        <Footer container className='my-0 bg-green-600 text-white'>
             <div className="w-full text-white">
                 <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
                     <div>
@@ -23,7 +23,6 @@ const FooterComponent = () => {
                             src={ logo }
                             alt="Logo"
                         />
-
                         <div className="mt-4 text-sm text-white">
                             <p className='w-96 text-justify'>
                                 Firoz Autos is a Honda Bangladesh authorized leading Motor Bike dealer and service provider, dedicated to delivering top-notch vehicle maintenance and repair solutions. Our team of skilled technicians ensures your vehicle runs smoothly and efficiently.

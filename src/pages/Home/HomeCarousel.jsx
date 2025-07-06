@@ -7,7 +7,7 @@ import carousel5 from "../../assets/carousel-images/5.jpg"
 
 const HomeCarousel = () => {
     return (
-        <div className="my-10 container mx-auto h-56 sm:h-56 xl:h-80 2xl:h-96">
+        <div className="mb-20 container mx-auto h-56 sm:h-56 xl:h-80 2xl:h-96">
             <Carousel pauseOnHover slideInterval={ 2000 }>
                 <img src={ carousel1 } alt="..." className="h-full w-full object-fill object-center" />
                 <img src={ carousel2 } alt="..." className="h-full w-full object-fill object-center" />
