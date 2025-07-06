@@ -4,7 +4,7 @@ import FooterComponent from '../../components/Footer/FooterComponent';
 
 const Services = () => {
     return (
-        <div>
+        <div className='container mx-auto'>
             <Header />
             <h1>Services & Parts Replacement</h1>
             <FooterComponent />
