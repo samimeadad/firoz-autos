@@ -39,7 +39,7 @@ export default function Header () {
                             </div>
                             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                                 <div className="mt-2 ms-8 flex flex-shrink-0 items-center sm:place-items-center">
-                                    <a href="/firoz-autos/">
+                                    <a href="/firoz-autos">
                                         <img
                                             className="h-8 w-auto"
                                             src={ logo }
