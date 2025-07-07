@@ -47,8 +47,8 @@ const FooterComponent = () => {
                         <div>
                             <FooterTitle title="Legal" className='text-white' />
                             <FooterLinkGroup col>
-                                <FooterLink href="/privacy-policy" target='_blank' className='text-white'>Privacy Policy</FooterLink>
-                                <FooterLink href="/terms" target='_blank' className='text-white'>Terms &amp; Conditions</FooterLink>
+                                <FooterLink href="/firoz-autos/privacy-policy" className='text-white'>Privacy Policy</FooterLink>
+                                <FooterLink href="/firoz-autos/terms" className='text-white'>Terms &amp; Conditions</FooterLink>
                             </FooterLinkGroup>
                         </div>
                     </div>
