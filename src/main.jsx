@@ -18,52 +18,52 @@ import Terms from './pages/Terms/Terms.jsx';
 
 const router = createBrowserRouter( [
   {
-    path: "/",
+    path: "/firoz-autos",
     element: <Home />,
     errorElement: <PageNotFound />
   },
   {
-    path: "/home",
+    path: "/firoz-autos/home",
     element: <Home />,
     errorElement: <PageNotFound />
   },
   {
-    path: "/products",
+    path: "/firoz-autos/products",
     element: <Products />,
     errorElement: <PageNotFound />
   },
   {
-    path: "/service",
+    path: "/firoz-autos/service",
     element: <Services />,
     errorElement: <PageNotFound />
   },
   {
-    path: "/about",
+    path: "/firoz-autos/about",
     element: <About />,
     errorElement: <PageNotFound />
   },
   {
-    path: "/roadSafety",
+    path: "/firoz-autos/roadSafety",
     element: <RoadSafety />,
     errorElement: <PageNotFound />
   },
   {
-    path: "/contact",
+    path: "/firoz-autos/contact",
     element: <Contact />,
     errorElement: <PageNotFound />
   },
   {
-    path: "/events",
+    path: "/firoz-autos/events",
     element: <Events />,
     errorElement: <PageNotFound />
   },
   {
-    path: "/privacy-policy",
+    path: "/firoz-autos/privacy-policy",
     element: <PrivacyPolicy />,
     errorElement: <PageNotFound />
   },
   {
-    path: "/terms",
+    path: "/firoz-autos/terms",
     element: <Terms />,
     errorElement: <PageNotFound />
   }

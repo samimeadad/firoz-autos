@@ -4,13 +4,13 @@ import logo from '../../assets/logo.png';
 
 
 const navigation = [
-    { name: 'Home', href: '/home', current: false },
-    { name: 'Products', href: '/products', current: false },
-    { name: 'Service & Spare Parts', href: '/service', current: false },
-    { name: 'About Us', href: '/about', current: false },
-    { name: 'Road Safety', href: '/roadSafety', current: false },
-    { name: 'Contact Us', href: '/contact', current: false },
-    { name: 'Events', href: '/events', current: false },
+    { name: 'Home', href: '/firoz-autos/home', current: false },
+    { name: 'Products', href: '/firoz-autos/products', current: false },
+    { name: 'Service & Spare Parts', href: '/firoz-autos/service', current: false },
+    { name: 'About Us', href: '/firoz-autos/about', current: false },
+    { name: 'Road Safety', href: '/firoz-autos/roadSafety', current: false },
+    { name: 'Contact Us', href: '/firoz-autos/contact', current: false },
+    { name: 'Events', href: '/firoz-autos/events', current: false },
     { name: 'Honda Global', href: 'https://global.honda/en/', current: false, target: '_blank' }
 ]
 
@@ -39,7 +39,7 @@ export default function Header () {
                             </div>
                             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                                 <div className="mt-2 ms-8 flex flex-shrink-0 items-center sm:place-items-center">
-                                    <a href="/">
+                                    <a href="/firoz-autos/">
                                         <img
                                             className="h-8 w-auto"
                                             src={ logo }
